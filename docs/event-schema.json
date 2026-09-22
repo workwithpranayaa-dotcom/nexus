@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NexusEvent",
+  "type": "object",
+  "required": ["type", "service", "timestamp"],
+  "properties": {
+    "type": {"type":"string"},
+    "service": {"type":"string"},
+    "timestamp": {"type":"string"},
+    "deploymentId": {"type":"string"},
+    "severity": {"type":"string"},
+    "metadata": {"type":"object"}
+  }
+}
